@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://greenhandzpx.github.io/blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -98,10 +98,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 theme: cactus
-# theme_config:
-#   colorscheme: white
+theme_config:
+  colorscheme: dark # dark, light, white, classic
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+disqus:
+  enabled: true
+  shortname: greenhand-1
